@@ -9,7 +9,7 @@ const Blog = ({blog, bookmarks, setBookmarks}) => {
   const handleAddBookmark = (blog)=>{
     const existBookmark = bookmarks.find(bookmark => bookmark.id === blog.id);
     if(existBookmark){
-    return Swal.fire('Already book marked!')
+    return Swal.fire('You have alreay bookmarked this blog!')
     }
 
 
