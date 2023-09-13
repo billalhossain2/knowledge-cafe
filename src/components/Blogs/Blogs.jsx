@@ -6,12 +6,18 @@ const Blogs = props => {
   const [blogs, setBlogs] = useState([]);
   const [bookmarks, setBookmarks] = useState([]);
   const loadBlogs = async()=>{
-    const res = await fetch(`data/blogs.json`);
+    const res = await fetch(`blogs.json`);
     const allblogs = await res.json();
+    console.log('Fetched data ==========> ', allblogs)
     setBlogs(allblogs)
   }
 
-  useEffect(()=>loadBlogs, [])
+  useEffect(()=>{
+    fetch(`blogs.json`)
+    .then(res => res.json())
+    .then(data => setBlogs(data))
+    .catch(error => console.log('Fetching blogs Error==> ', error))
+  }, [])
   return (
     <div className='flex lg:flex-row flex-col mt-10 gap-5 mb-10'>
       <div className='flex-1 space-y-10'>
