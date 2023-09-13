@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "author_name": "John Doe",
+    "blog_title": "The Art of Coffee",
+    "cover_img": "coffee.jpg",
+    "author_img": "john_doe.jpg",
+    "read_time": 10,
+    "published_date": "September 12",
+    "hash_tags": ["coffee", "brewing", "caffeine"]
+  },
+  {
+    "id": 2,
+    "author_name": "Jane Smith",
+    "blog_title": "Exploring Nature's Wonders",
+    "cover_img": "nature.jpg",
+    "author_img": "jane_smith.jpg",
+    "read_time": 15,
+    "published_date": "September 10",
+    "hash_tags": ["nature", "outdoors", "adventure"]
+  },
+  {
+    "id": 3,
+    "author_name": "David Brown",
+    "blog_title": "Tech Trends of 2023",
+    "cover_img": "tech.jpg",
+    "author_img": "david_brown.jpg",
+    "read_time": 8,
+    "published_date": "September 8",
+    "hash_tags": ["technology", "trends", "innovation"]
+  },
+  {
+    "id": 4,
+    "author_name": "Alice Johnson",
+    "blog_title": "Healthy Eating Habits",
+    "cover_img": "food.jpg",
+    "author_img": "alice_johnson.jpg",
+    "read_time": 12,
+    "published_date": "September 6",
+    "hash_tags": ["nutrition", "health", "diet"]
+  },
+  {
+    "id": 5,
+    "author_name": "Michael Wilson",
+    "blog_title": "Traveling on a Budget",
+    "cover_img": "travel.jpg",
+    "author_img": "michael_wilson.jpg",
+    "read_time": 20,
+    "published_date": "September 5",
+    "hash_tags": ["travel", "budget", "exploration"]
+  }
+]
